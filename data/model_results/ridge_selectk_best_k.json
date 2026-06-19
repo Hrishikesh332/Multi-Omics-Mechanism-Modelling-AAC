@@ -1,0 +1,33 @@
+{
+  "recommended_k_overall": 1000,
+  "recommended_k_by_strategy": {
+    "early_fusion": 250,
+    "metadata_augmented": 500,
+    "signal_fusion": 250,
+    "single_omics": 1000
+  },
+  "best_overall": {
+    "k_features": 1000,
+    "strategy": "single_omics",
+    "omics_layer": "expr",
+    "mean_pearson": 0.5599877057887185,
+    "mean_spearman": 0.544665914121294,
+    "mean_rmse": 0.17142590673506158,
+    "mean_mae": 0.13653756413195872,
+    "mean_r2": 0.3003056413240923,
+    "n_runs": 60
+  },
+  "k_grid": [
+    250,
+    500,
+    1000
+  ],
+  "n_compounds": 12,
+  "strategies": [
+    "single_omics",
+    "metadata_augmented",
+    "signal_fusion",
+    "early_fusion"
+  ],
+  "note": "Copy recommended_k_overall into SELECT_K_FEATURES in 02_model_development_multiomics.ipynb, or use per-strategy values if you split configs later."
+}

@@ -1,0 +1,13 @@
+compound,model_family,strategy,omics_layer,strategy_label,pearson,rmse,r2
+Clofarabine,XGBoost,early_fusion_lineage,multiomics_plus_lineage,Early fusion + lineage,0.7116070658918302,0.14431874931119115,0.4704321446026657
+Vincristine,LightGBM,early_fusion,multiomics,Early fusion,0.6471478366596454,0.1760135037426557,0.4123943604301896
+BI-2536,RidgeCV,single_omics,expr,Expression,0.638012737095708,0.16283605409843643,0.3997152762591575
+Parbendazole,RidgeCV,single_omics,expr,Expression,0.6230370586426739,0.14661917670392716,0.36846030445208094
+KX2-391,LightGBM,metadata_augmented,expr_plus_lineage,Expression + lineage,0.6052079039271672,0.15650905390222203,0.3126164189428291
+"1S,3R-RSL-3",RidgeSelectK,signal_fusion,signal_multiomics,Focused fusion,0.5850851773309452,0.1670192657540625,0.3263581124166852
+SB-743921,LightGBM,early_fusion,multiomics,Early fusion,0.5522530242680379,0.20249862833400614,0.2900981361166136
+Leptomycin B,RidgeCV,single_omics,expr,Expression,0.5485690556411791,0.15399797327537335,0.291494535628985
+ML210,RidgeSelectK,metadata_augmented,expr_plus_lineage,Expression + lineage,0.5434610336596644,0.1804890117740789,0.2696379617538719
+docetaxel:tanespimycin (2:1 mol/mol),RidgeCV+PositiveStack,learned_late_fusion,multiomics,Learned late fusion,0.5287184786711328,0.1693510009257631,0.2705087827888694
+CAY10618,ElasticNet,signal_fusion,signal_multiomics,Focused fusion,0.4599892015331356,0.1655264053462275,0.1658220426031189
+Oligomycin A,RidgeCV,pathway_modules_lineage,multiomics_pathway,Pathway + lineage,0.38978562575528286,0.22428978834310076,0.10185167598968232

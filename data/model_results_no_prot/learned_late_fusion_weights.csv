@@ -1,0 +1,481 @@
+compound,model_family,strategy,omics_layer,fold,weight,weight_fraction
+Vincristine,RidgeCV+PositiveStack,learned_late_fusion,expr,1,0.7449383576758803,0.626641207465885
+Vincristine,RidgeCV+PositiveStack,learned_late_fusion,mut,1,0.0,0.0
+Vincristine,RidgeCV+PositiveStack,learned_late_fusion,cnv,1,0.10371933496029863,0.08724857382811678
+Vincristine,RidgeCV+PositiveStack,learned_late_fusion,meth,1,0.34012202500860367,0.28611021870599834
+Vincristine,RidgeCV+PositiveStack,learned_late_fusion,expr,2,0.8631188308564077,0.7698491715677849
+Vincristine,RidgeCV+PositiveStack,learned_late_fusion,mut,2,0.0,0.0
+Vincristine,RidgeCV+PositiveStack,learned_late_fusion,cnv,2,0.02366907478438314,0.02111136608669906
+Vincristine,RidgeCV+PositiveStack,learned_late_fusion,meth,2,0.2343652536185492,0.2090394623455161
+Vincristine,RidgeCV+PositiveStack,learned_late_fusion,expr,3,0.9163064269493503,0.8298726919016747
+Vincristine,RidgeCV+PositiveStack,learned_late_fusion,mut,3,0.0,0.0
+Vincristine,RidgeCV+PositiveStack,learned_late_fusion,cnv,3,0.09442069553717276,0.08551414076351696
+Vincristine,RidgeCV+PositiveStack,learned_late_fusion,meth,3,0.09342588301798438,0.08461316733480828
+Vincristine,RidgeCV+PositiveStack,learned_late_fusion,expr,4,0.8286319321279096,0.7096478919200205
+Vincristine,RidgeCV+PositiveStack,learned_late_fusion,mut,4,0.0,0.0
+Vincristine,RidgeCV+PositiveStack,learned_late_fusion,cnv,4,0.09062623050562732,0.07761312464247253
+Vincristine,RidgeCV+PositiveStack,learned_late_fusion,meth,4,0.2484081428154462,0.212738983437507
+Vincristine,RidgeCV+PositiveStack,learned_late_fusion,expr,5,0.7710230565351871,0.6835913618566318
+Vincristine,RidgeCV+PositiveStack,learned_late_fusion,mut,5,0.0,0.0
+Vincristine,RidgeCV+PositiveStack,learned_late_fusion,cnv,5,0.0213009178708796,0.01888545787668845
+Vincristine,RidgeCV+PositiveStack,learned_late_fusion,meth,5,0.3355765514886594,0.2975231802666797
+SB-743921,RidgeCV+PositiveStack,learned_late_fusion,expr,1,0.861470100374581,0.7621697348068718
+SB-743921,RidgeCV+PositiveStack,learned_late_fusion,mut,1,0.0,0.0
+SB-743921,RidgeCV+PositiveStack,learned_late_fusion,cnv,1,0.15001223206106956,0.13272054721116575
+SB-743921,RidgeCV+PositiveStack,learned_late_fusion,meth,1,0.11880408676055543,0.10510971798196246
+SB-743921,RidgeCV+PositiveStack,learned_late_fusion,expr,2,0.8007403567413741,0.6840045802881999
+SB-743921,RidgeCV+PositiveStack,learned_late_fusion,mut,2,0.0,0.0
+SB-743921,RidgeCV+PositiveStack,learned_late_fusion,cnv,2,0.11585160502566329,0.09896220142291057
+SB-743921,RidgeCV+PositiveStack,learned_late_fusion,meth,2,0.2540732352466851,0.21703321828888955
+SB-743921,RidgeCV+PositiveStack,learned_late_fusion,expr,3,0.9696671779901344,0.8898466265102709
+SB-743921,RidgeCV+PositiveStack,learned_late_fusion,mut,3,0.0,0.0
+SB-743921,RidgeCV+PositiveStack,learned_late_fusion,cnv,3,0.12003429314191597,0.11015337348972908
+SB-743921,RidgeCV+PositiveStack,learned_late_fusion,meth,3,0.0,0.0
+SB-743921,RidgeCV+PositiveStack,learned_late_fusion,expr,4,0.6333906586166751,0.5224217445381429
+SB-743921,RidgeCV+PositiveStack,learned_late_fusion,mut,4,0.0,0.0
+SB-743921,RidgeCV+PositiveStack,learned_late_fusion,cnv,4,0.04443673240600633,0.036651496117453615
+SB-743921,RidgeCV+PositiveStack,learned_late_fusion,meth,4,0.5345851190588743,0.4409267593444035
+SB-743921,RidgeCV+PositiveStack,learned_late_fusion,expr,5,0.7911958176815818,0.6740265657135531
+SB-743921,RidgeCV+PositiveStack,learned_late_fusion,mut,5,0.0,0.0
+SB-743921,RidgeCV+PositiveStack,learned_late_fusion,cnv,5,0.11955479311671138,0.10184976312840185
+SB-743921,RidgeCV+PositiveStack,learned_late_fusion,meth,5,0.26308415763399895,0.22412367115804502
+Oligomycin A,RidgeCV+PositiveStack,learned_late_fusion,expr,1,0.7404600264944622,0.9570906015885707
+Oligomycin A,RidgeCV+PositiveStack,learned_late_fusion,mut,1,0.0,0.0
+Oligomycin A,RidgeCV+PositiveStack,learned_late_fusion,cnv,1,0.03319716464862606,0.04290939841142926
+Oligomycin A,RidgeCV+PositiveStack,learned_late_fusion,meth,1,0.0,0.0
+Oligomycin A,RidgeCV+PositiveStack,learned_late_fusion,expr,2,0.6852099002427733,0.6155562345426348
+Oligomycin A,RidgeCV+PositiveStack,learned_late_fusion,mut,2,0.0,0.0
+Oligomycin A,RidgeCV+PositiveStack,learned_late_fusion,cnv,2,0.08868345065733327,0.07966850877889277
+Oligomycin A,RidgeCV+PositiveStack,learned_late_fusion,meth,2,0.3392622988869384,0.30477525667847244
+Oligomycin A,RidgeCV+PositiveStack,learned_late_fusion,expr,3,0.8513008720331084,0.8561531976624663
+Oligomycin A,RidgeCV+PositiveStack,learned_late_fusion,mut,3,0.0,0.0
+Oligomycin A,RidgeCV+PositiveStack,learned_late_fusion,cnv,3,0.14303153758399503,0.14384680233753366
+Oligomycin A,RidgeCV+PositiveStack,learned_late_fusion,meth,3,0.0,0.0
+Oligomycin A,RidgeCV+PositiveStack,learned_late_fusion,expr,4,0.6633230668521753,0.7287595418573773
+Oligomycin A,RidgeCV+PositiveStack,learned_late_fusion,mut,4,0.004938067215350492,0.005425204973795579
+Oligomycin A,RidgeCV+PositiveStack,learned_late_fusion,cnv,4,0.10754325864615152,0.11815234508991476
+Oligomycin A,RidgeCV+PositiveStack,learned_late_fusion,meth,4,0.13440402138348134,0.14766290807891236
+Oligomycin A,RidgeCV+PositiveStack,learned_late_fusion,expr,5,0.866686817135135,0.9367107498183346
+Oligomycin A,RidgeCV+PositiveStack,learned_late_fusion,mut,5,0.0,0.0
+Oligomycin A,RidgeCV+PositiveStack,learned_late_fusion,cnv,5,0.012648365305507739,0.013670289561414925
+Oligomycin A,RidgeCV+PositiveStack,learned_late_fusion,meth,5,0.045909688831753837,0.049618960620250556
+BI-2536,RidgeCV+PositiveStack,learned_late_fusion,expr,1,0.7904071456217404,0.7184961228520276
+BI-2536,RidgeCV+PositiveStack,learned_late_fusion,mut,1,0.0,0.0
+BI-2536,RidgeCV+PositiveStack,learned_late_fusion,cnv,1,0.0,0.0
+BI-2536,RidgeCV+PositiveStack,learned_late_fusion,meth,1,0.3096783252424117,0.2815038771479724
+BI-2536,RidgeCV+PositiveStack,learned_late_fusion,expr,2,0.7953134823584517,0.7065125060656363
+BI-2536,RidgeCV+PositiveStack,learned_late_fusion,mut,2,0.0,0.0
+BI-2536,RidgeCV+PositiveStack,learned_late_fusion,cnv,2,0.0218686455861081,0.019426895104915177
+BI-2536,RidgeCV+PositiveStack,learned_late_fusion,meth,2,0.3085070502800724,0.2740605988294484
+BI-2536,RidgeCV+PositiveStack,learned_late_fusion,expr,3,0.8588375890123818,0.8008476066682599
+BI-2536,RidgeCV+PositiveStack,learned_late_fusion,mut,3,0.0,0.0
+BI-2536,RidgeCV+PositiveStack,learned_late_fusion,cnv,3,0.006696337359690663,0.00624419077199264
+BI-2536,RidgeCV+PositiveStack,learned_late_fusion,meth,3,0.2068768317562757,0.19290820255974742
+BI-2536,RidgeCV+PositiveStack,learned_late_fusion,expr,4,0.8565220430420822,0.7462653768466427
+BI-2536,RidgeCV+PositiveStack,learned_late_fusion,mut,4,0.0,0.0
+BI-2536,RidgeCV+PositiveStack,learned_late_fusion,cnv,4,0.09186106111341329,0.08003615312205777
+BI-2536,RidgeCV+PositiveStack,learned_late_fusion,meth,4,0.19936147788759873,0.17369847003129946
+BI-2536,RidgeCV+PositiveStack,learned_late_fusion,expr,5,0.9483434809802384,0.8954991047932757
+BI-2536,RidgeCV+PositiveStack,learned_late_fusion,mut,5,0.0,0.0
+BI-2536,RidgeCV+PositiveStack,learned_late_fusion,cnv,5,0.03926098378642055,0.03707325092560587
+BI-2536,RidgeCV+PositiveStack,learned_late_fusion,meth,5,0.07140662290959487,0.06742764428111854
+"1S,3R-RSL-3",RidgeCV+PositiveStack,learned_late_fusion,expr,1,0.6580008558171055,0.5400092011276355
+"1S,3R-RSL-3",RidgeCV+PositiveStack,learned_late_fusion,mut,1,0.09844402237815703,0.08079119868955903
+"1S,3R-RSL-3",RidgeCV+PositiveStack,learned_late_fusion,cnv,1,0.0,0.0
+"1S,3R-RSL-3",RidgeCV+PositiveStack,learned_late_fusion,meth,1,0.4620544630068547,0.37919960018280546
+"1S,3R-RSL-3",RidgeCV+PositiveStack,learned_late_fusion,expr,2,0.884875597935578,0.7701732949818249
+"1S,3R-RSL-3",RidgeCV+PositiveStack,learned_late_fusion,mut,2,0.0,0.0
+"1S,3R-RSL-3",RidgeCV+PositiveStack,learned_late_fusion,cnv,2,0.038396446513970506,0.03341929396205477
+"1S,3R-RSL-3",RidgeCV+PositiveStack,learned_late_fusion,meth,2,0.22565846729516204,0.1964074110561203
+"1S,3R-RSL-3",RidgeCV+PositiveStack,learned_late_fusion,expr,3,0.8526383372996126,0.7448256278253822
+"1S,3R-RSL-3",RidgeCV+PositiveStack,learned_late_fusion,mut,3,0.0,0.0
+"1S,3R-RSL-3",RidgeCV+PositiveStack,learned_late_fusion,cnv,3,0.04397059593568428,0.03841068984462508
+"1S,3R-RSL-3",RidgeCV+PositiveStack,learned_late_fusion,meth,3,0.2481399924817249,0.21676368232999269
+"1S,3R-RSL-3",RidgeCV+PositiveStack,learned_late_fusion,expr,4,1.0241956795981844,1.0
+"1S,3R-RSL-3",RidgeCV+PositiveStack,learned_late_fusion,mut,4,0.0,0.0
+"1S,3R-RSL-3",RidgeCV+PositiveStack,learned_late_fusion,cnv,4,0.0,0.0
+"1S,3R-RSL-3",RidgeCV+PositiveStack,learned_late_fusion,meth,4,0.0,0.0
+"1S,3R-RSL-3",RidgeCV+PositiveStack,learned_late_fusion,expr,5,0.9346729744461202,0.8970457982015596
+"1S,3R-RSL-3",RidgeCV+PositiveStack,learned_late_fusion,mut,5,0.0,0.0
+"1S,3R-RSL-3",RidgeCV+PositiveStack,learned_late_fusion,cnv,5,0.0,0.0
+"1S,3R-RSL-3",RidgeCV+PositiveStack,learned_late_fusion,meth,5,0.10727268353477382,0.1029542017984405
+docetaxel:tanespimycin (2:1 mol/mol),RidgeCV+PositiveStack,learned_late_fusion,expr,1,0.9009802991578788,0.8579882685852589
+docetaxel:tanespimycin (2:1 mol/mol),RidgeCV+PositiveStack,learned_late_fusion,mut,1,0.0,0.0
+docetaxel:tanespimycin (2:1 mol/mol),RidgeCV+PositiveStack,learned_late_fusion,cnv,1,0.02052108892187852,0.01954188517775952
+docetaxel:tanespimycin (2:1 mol/mol),RidgeCV+PositiveStack,learned_late_fusion,meth,1,0.1286065587847256,0.12246984623698154
+docetaxel:tanespimycin (2:1 mol/mol),RidgeCV+PositiveStack,learned_late_fusion,expr,2,0.9960262694593212,0.935565278650897
+docetaxel:tanespimycin (2:1 mol/mol),RidgeCV+PositiveStack,learned_late_fusion,mut,2,0.0,0.0
+docetaxel:tanespimycin (2:1 mol/mol),RidgeCV+PositiveStack,learned_late_fusion,cnv,2,0.06733369747111712,0.06324639356284938
+docetaxel:tanespimycin (2:1 mol/mol),RidgeCV+PositiveStack,learned_late_fusion,meth,2,0.0012651235769927105,0.001188327786253578
+docetaxel:tanespimycin (2:1 mol/mol),RidgeCV+PositiveStack,learned_late_fusion,expr,3,0.6588151254347648,0.546422223612377
+docetaxel:tanespimycin (2:1 mol/mol),RidgeCV+PositiveStack,learned_late_fusion,mut,3,0.0,0.0
+docetaxel:tanespimycin (2:1 mol/mol),RidgeCV+PositiveStack,learned_late_fusion,cnv,3,0.06784704864575887,0.05627244086432806
+docetaxel:tanespimycin (2:1 mol/mol),RidgeCV+PositiveStack,learned_late_fusion,meth,3,0.4790265716651425,0.3973053355232949
+docetaxel:tanespimycin (2:1 mol/mol),RidgeCV+PositiveStack,learned_late_fusion,expr,4,0.9313704894371009,0.7985886981791923
+docetaxel:tanespimycin (2:1 mol/mol),RidgeCV+PositiveStack,learned_late_fusion,mut,4,0.0,0.0
+docetaxel:tanespimycin (2:1 mol/mol),RidgeCV+PositiveStack,learned_late_fusion,cnv,4,0.08800339970941856,0.07545710456400913
+docetaxel:tanespimycin (2:1 mol/mol),RidgeCV+PositiveStack,learned_late_fusion,meth,4,0.14689667235861503,0.12595419725679868
+docetaxel:tanespimycin (2:1 mol/mol),RidgeCV+PositiveStack,learned_late_fusion,expr,5,0.7187947610469391,0.6035550315653109
+docetaxel:tanespimycin (2:1 mol/mol),RidgeCV+PositiveStack,learned_late_fusion,mut,5,0.0,0.0
+docetaxel:tanespimycin (2:1 mol/mol),RidgeCV+PositiveStack,learned_late_fusion,cnv,5,0.10592283161063258,0.08894090697479033
+docetaxel:tanespimycin (2:1 mol/mol),RidgeCV+PositiveStack,learned_late_fusion,meth,5,0.3662173237207341,0.30750406145989895
+Cytarabine,RidgeCV+PositiveStack,learned_late_fusion,expr,1,0.6792947045772418,0.5044638391626889
+Cytarabine,RidgeCV+PositiveStack,learned_late_fusion,mut,1,0.16809041683383638,0.12482879143776951
+Cytarabine,RidgeCV+PositiveStack,learned_late_fusion,cnv,1,0.15322539774040866,0.11378959953686381
+Cytarabine,RidgeCV+PositiveStack,learned_late_fusion,meth,1,0.34595716685894723,0.2569177698626778
+Cytarabine,RidgeCV+PositiveStack,learned_late_fusion,expr,2,0.866667900637271,0.7686345309066547
+Cytarabine,RidgeCV+PositiveStack,learned_late_fusion,mut,2,0.0,0.0
+Cytarabine,RidgeCV+PositiveStack,learned_late_fusion,cnv,2,0.10680476878201188,0.0947235189984432
+Cytarabine,RidgeCV+PositiveStack,learned_late_fusion,meth,2,0.15406957047329584,0.13664195009490207
+Cytarabine,RidgeCV+PositiveStack,learned_late_fusion,expr,3,0.8540823963101456,0.7107464197818477
+Cytarabine,RidgeCV+PositiveStack,learned_late_fusion,mut,3,0.03235757014158351,0.0269271761487274
+Cytarabine,RidgeCV+PositiveStack,learned_late_fusion,cnv,3,0.05265287726288622,0.04381643289627053
+Cytarabine,RidgeCV+PositiveStack,learned_late_fusion,meth,3,0.26257679898621267,0.2185099711731544
+Cytarabine,RidgeCV+PositiveStack,learned_late_fusion,expr,4,0.7499882618231128,0.6740804377304137
+Cytarabine,RidgeCV+PositiveStack,learned_late_fusion,mut,4,0.0,0.0
+Cytarabine,RidgeCV+PositiveStack,learned_late_fusion,cnv,4,0.021458270426151164,0.019286435612520414
+Cytarabine,RidgeCV+PositiveStack,learned_late_fusion,meth,4,0.34116291292062695,0.3066331266570659
+Cytarabine,RidgeCV+PositiveStack,learned_late_fusion,expr,5,0.846975943058832,0.6985935585747215
+Cytarabine,RidgeCV+PositiveStack,learned_late_fusion,mut,5,0.10988565309275655,0.09063469872962371
+Cytarabine,RidgeCV+PositiveStack,learned_late_fusion,cnv,5,0.08804644947330377,0.07262152244287796
+Cytarabine,RidgeCV+PositiveStack,learned_late_fusion,meth,5,0.1674935470649141,0.13815022025277676
+Leptomycin B,RidgeCV+PositiveStack,learned_late_fusion,expr,1,0.7896542979667791,0.5865098659526876
+Leptomycin B,RidgeCV+PositiveStack,learned_late_fusion,mut,1,0.1709438545340733,0.12696727855007892
+Leptomycin B,RidgeCV+PositiveStack,learned_late_fusion,cnv,1,0.08948306069496782,0.06646287884252071
+Leptomycin B,RidgeCV+PositiveStack,learned_late_fusion,meth,1,0.296280278412027,0.22005997665471266
+Leptomycin B,RidgeCV+PositiveStack,learned_late_fusion,expr,2,0.8451964307631876,0.7696091345044062
+Leptomycin B,RidgeCV+PositiveStack,learned_late_fusion,mut,2,0.18505195637006674,0.1685024578862871
+Leptomycin B,RidgeCV+PositiveStack,learned_late_fusion,cnv,2,0.020285112643272988,0.018470981911999897
+Leptomycin B,RidgeCV+PositiveStack,learned_late_fusion,meth,2,0.04768167578457909,0.043417425697306805
+Leptomycin B,RidgeCV+PositiveStack,learned_late_fusion,expr,3,0.9642712995904805,0.742023241238721
+Leptomycin B,RidgeCV+PositiveStack,learned_late_fusion,mut,3,0.2393438656313981,0.18417919419756648
+Leptomycin B,RidgeCV+PositiveStack,learned_late_fusion,cnv,3,0.00610760471849507,0.00469990618962456
+Leptomycin B,RidgeCV+PositiveStack,learned_late_fusion,meth,3,0.08979353359311458,0.06909765837408798
+Leptomycin B,RidgeCV+PositiveStack,learned_late_fusion,expr,4,0.9424980083277796,0.7620408081269027
+Leptomycin B,RidgeCV+PositiveStack,learned_late_fusion,mut,4,0.16603004901894095,0.1342407852428497
+Leptomycin B,RidgeCV+PositiveStack,learned_late_fusion,cnv,4,0.12827973335997528,0.10371840663024762
+Leptomycin B,RidgeCV+PositiveStack,learned_late_fusion,meth,4,0.0,0.0
+Leptomycin B,RidgeCV+PositiveStack,learned_late_fusion,expr,5,0.9492099268356197,0.719741877266677
+Leptomycin B,RidgeCV+PositiveStack,learned_late_fusion,mut,5,0.32442159457639447,0.24599385331407256
+Leptomycin B,RidgeCV+PositiveStack,learned_late_fusion,cnv,5,0.03643633013671986,0.02762797976706437
+Leptomycin B,RidgeCV+PositiveStack,learned_late_fusion,meth,5,0.00875207100514095,0.006636289652185945
+KX2-391,RidgeCV+PositiveStack,learned_late_fusion,expr,1,0.899555576660826,0.742365750985509
+KX2-391,RidgeCV+PositiveStack,learned_late_fusion,mut,1,0.2325122099971173,0.19188264279183273
+KX2-391,RidgeCV+PositiveStack,learned_late_fusion,cnv,1,0.016840384925483846,0.013897668278038578
+KX2-391,RidgeCV+PositiveStack,learned_late_fusion,meth,1,0.06283358167855109,0.051853937944619524
+KX2-391,RidgeCV+PositiveStack,learned_late_fusion,expr,2,0.8866326731870743,0.925175601603811
+KX2-391,RidgeCV+PositiveStack,learned_late_fusion,mut,2,0.0,0.0
+KX2-391,RidgeCV+PositiveStack,learned_late_fusion,cnv,2,0.016947126620506417,0.01768383744558305
+KX2-391,RidgeCV+PositiveStack,learned_late_fusion,meth,2,0.054760078211336216,0.05714056095060597
+KX2-391,RidgeCV+PositiveStack,learned_late_fusion,expr,3,0.9698381657860874,0.9378756324865056
+KX2-391,RidgeCV+PositiveStack,learned_late_fusion,mut,3,0.0,0.0
+KX2-391,RidgeCV+PositiveStack,learned_late_fusion,cnv,3,0.05977630345259832,0.05780628189948593
+KX2-391,RidgeCV+PositiveStack,learned_late_fusion,meth,3,0.004465244736654883,0.004318085614008442
+KX2-391,RidgeCV+PositiveStack,learned_late_fusion,expr,4,0.9956639276969309,0.9629310539758816
+KX2-391,RidgeCV+PositiveStack,learned_late_fusion,mut,4,0.0,0.0
+KX2-391,RidgeCV+PositiveStack,learned_late_fusion,cnv,4,0.03832902910500974,0.037068946024118414
+KX2-391,RidgeCV+PositiveStack,learned_late_fusion,meth,4,0.0,0.0
+KX2-391,RidgeCV+PositiveStack,learned_late_fusion,expr,5,0.9017049417931847,0.8612226920745747
+KX2-391,RidgeCV+PositiveStack,learned_late_fusion,mut,5,0.0,0.0
+KX2-391,RidgeCV+PositiveStack,learned_late_fusion,cnv,5,0.060751359825617114,0.05802391362318758
+KX2-391,RidgeCV+PositiveStack,learned_late_fusion,meth,5,0.08454925233506994,0.08075339430223782
+CAY10618,RidgeCV+PositiveStack,learned_late_fusion,expr,1,0.8526048697088807,0.8959625223799335
+CAY10618,RidgeCV+PositiveStack,learned_late_fusion,mut,1,0.0,0.0
+CAY10618,RidgeCV+PositiveStack,learned_late_fusion,cnv,1,0.08432619087719187,0.08861444423466398
+CAY10618,RidgeCV+PositiveStack,learned_late_fusion,meth,1,0.014676677920798964,0.015423033385402619
+CAY10618,RidgeCV+PositiveStack,learned_late_fusion,expr,2,0.5394268348463199,0.5256116601928499
+CAY10618,RidgeCV+PositiveStack,learned_late_fusion,mut,2,0.0,0.0
+CAY10618,RidgeCV+PositiveStack,learned_late_fusion,cnv,2,0.0,0.0
+CAY10618,RidgeCV+PositiveStack,learned_late_fusion,meth,2,0.4868571609242479,0.47438833980715006
+CAY10618,RidgeCV+PositiveStack,learned_late_fusion,expr,3,0.7276655260898522,0.8205655812848707
+CAY10618,RidgeCV+PositiveStack,learned_late_fusion,mut,3,0.0,0.0
+CAY10618,RidgeCV+PositiveStack,learned_late_fusion,cnv,3,0.0,0.0
+CAY10618,RidgeCV+PositiveStack,learned_late_fusion,meth,3,0.15911981159205224,0.17943441871512936
+CAY10618,RidgeCV+PositiveStack,learned_late_fusion,expr,4,0.6444819788242734,0.7226140338231104
+CAY10618,RidgeCV+PositiveStack,learned_late_fusion,mut,4,0.0,0.0
+CAY10618,RidgeCV+PositiveStack,learned_late_fusion,cnv,4,0.0,0.0
+CAY10618,RidgeCV+PositiveStack,learned_late_fusion,meth,4,0.24739383406927606,0.27738596617688965
+CAY10618,RidgeCV+PositiveStack,learned_late_fusion,expr,5,0.7881930497774876,0.7521288412963565
+CAY10618,RidgeCV+PositiveStack,learned_late_fusion,mut,5,0.031662756846709134,0.030214009913036674
+CAY10618,RidgeCV+PositiveStack,learned_late_fusion,cnv,5,0.0,0.0
+CAY10618,RidgeCV+PositiveStack,learned_late_fusion,meth,5,0.2280937021580638,0.2176571487906068
+Clofarabine,RidgeCV+PositiveStack,learned_late_fusion,expr,1,0.8837497582316368,0.6149636198950533
+Clofarabine,RidgeCV+PositiveStack,learned_late_fusion,mut,1,0.38091627403110834,0.2650633265505325
+Clofarabine,RidgeCV+PositiveStack,learned_late_fusion,cnv,1,0.06282418122633159,0.043716657961179704
+Clofarabine,RidgeCV+PositiveStack,learned_late_fusion,meth,1,0.10958627305569363,0.07625639559323456
+Clofarabine,RidgeCV+PositiveStack,learned_late_fusion,expr,2,0.9516334169048543,0.8482802147237002
+Clofarabine,RidgeCV+PositiveStack,learned_late_fusion,mut,2,0.027325836838314986,0.024358084036290417
+Clofarabine,RidgeCV+PositiveStack,learned_late_fusion,cnv,2,0.11683161964027663,0.10414299207494128
+Clofarabine,RidgeCV+PositiveStack,learned_late_fusion,meth,2,0.026047642224062514,0.02321870916506816
+Clofarabine,RidgeCV+PositiveStack,learned_late_fusion,expr,3,0.8147937288115367,0.5322364900193446
+Clofarabine,RidgeCV+PositiveStack,learned_late_fusion,mut,3,0.4049336974899376,0.2645092643962283
+Clofarabine,RidgeCV+PositiveStack,learned_late_fusion,cnv,3,0.16846357343050355,0.11004314079533917
+Clofarabine,RidgeCV+PositiveStack,learned_late_fusion,meth,3,0.14269563448192646,0.093211104789088
+Clofarabine,RidgeCV+PositiveStack,learned_late_fusion,expr,4,0.9141028664832435,0.7596503580122043
+Clofarabine,RidgeCV+PositiveStack,learned_late_fusion,mut,4,0.14660800454165873,0.12183620380274507
+Clofarabine,RidgeCV+PositiveStack,learned_late_fusion,cnv,4,0.0862901049519009,0.07170999186536717
+Clofarabine,RidgeCV+PositiveStack,learned_late_fusion,meth,4,0.056319547527192704,0.04680344631968349
+Clofarabine,RidgeCV+PositiveStack,learned_late_fusion,expr,5,0.8794834111022849,0.6600811366561087
+Clofarabine,RidgeCV+PositiveStack,learned_late_fusion,mut,5,0.2979006368167767,0.22358419553831388
+Clofarabine,RidgeCV+PositiveStack,learned_late_fusion,cnv,5,0.07624842329391614,0.05722694172594328
+Clofarabine,RidgeCV+PositiveStack,learned_late_fusion,meth,5,0.07875435559083246,0.05910772607963407
+ML210,RidgeCV+PositiveStack,learned_late_fusion,expr,1,0.9256864043968398,0.8465406045134668
+ML210,RidgeCV+PositiveStack,learned_late_fusion,mut,1,0.0,0.0
+ML210,RidgeCV+PositiveStack,learned_late_fusion,cnv,1,0.03179888174806209,0.029080090676492847
+ML210,RidgeCV+PositiveStack,learned_late_fusion,meth,1,0.1360079254758928,0.12437930481004036
+ML210,RidgeCV+PositiveStack,learned_late_fusion,expr,2,0.5240998493073423,0.3174748753739267
+ML210,RidgeCV+PositiveStack,learned_late_fusion,mut,2,0.6197489596197528,0.3754145779252476
+ML210,RidgeCV+PositiveStack,learned_late_fusion,cnv,2,0.0,0.0
+ML210,RidgeCV+PositiveStack,learned_late_fusion,meth,2,0.5069900131688253,0.3071105467008257
+ML210,RidgeCV+PositiveStack,learned_late_fusion,expr,3,0.6539246662868698,0.5108070709448367
+ML210,RidgeCV+PositiveStack,learned_late_fusion,mut,3,0.3117258740052169,0.24350171946025165
+ML210,RidgeCV+PositiveStack,learned_late_fusion,cnv,3,0.0,0.0
+ML210,RidgeCV+PositiveStack,learned_late_fusion,meth,3,0.3145288140721929,0.24569120959491164
+ML210,RidgeCV+PositiveStack,learned_late_fusion,expr,4,0.9943128188089603,0.9791807898995125
+ML210,RidgeCV+PositiveStack,learned_late_fusion,mut,4,0.0,0.0
+ML210,RidgeCV+PositiveStack,learned_late_fusion,cnv,4,0.021140945261514027,0.020819210100487456
+ML210,RidgeCV+PositiveStack,learned_late_fusion,meth,4,0.0,0.0
+ML210,RidgeCV+PositiveStack,learned_late_fusion,expr,5,0.9102160125878628,0.989450160055685
+ML210,RidgeCV+PositiveStack,learned_late_fusion,mut,5,0.0,0.0
+ML210,RidgeCV+PositiveStack,learned_late_fusion,cnv,5,0.009705019651534669,0.010549839944314986
+ML210,RidgeCV+PositiveStack,learned_late_fusion,meth,5,0.0,0.0
+Vincristine,RidgeSelectK+PositiveStack,learned_late_fusion,expr,1,0.7449383576758803,0.626641207465885
+Vincristine,RidgeSelectK+PositiveStack,learned_late_fusion,mut,1,0.0,0.0
+Vincristine,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,1,0.10371933496029863,0.08724857382811678
+Vincristine,RidgeSelectK+PositiveStack,learned_late_fusion,meth,1,0.34012202500860367,0.28611021870599834
+Vincristine,RidgeSelectK+PositiveStack,learned_late_fusion,expr,2,0.8631188308564077,0.7698491715677849
+Vincristine,RidgeSelectK+PositiveStack,learned_late_fusion,mut,2,0.0,0.0
+Vincristine,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,2,0.02366907478438314,0.02111136608669906
+Vincristine,RidgeSelectK+PositiveStack,learned_late_fusion,meth,2,0.2343652536185492,0.2090394623455161
+Vincristine,RidgeSelectK+PositiveStack,learned_late_fusion,expr,3,0.9163064269493503,0.8298726919016747
+Vincristine,RidgeSelectK+PositiveStack,learned_late_fusion,mut,3,0.0,0.0
+Vincristine,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,3,0.09442069553717276,0.08551414076351696
+Vincristine,RidgeSelectK+PositiveStack,learned_late_fusion,meth,3,0.09342588301798438,0.08461316733480828
+Vincristine,RidgeSelectK+PositiveStack,learned_late_fusion,expr,4,0.8286319321279096,0.7096478919200205
+Vincristine,RidgeSelectK+PositiveStack,learned_late_fusion,mut,4,0.0,0.0
+Vincristine,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,4,0.09062623050562732,0.07761312464247253
+Vincristine,RidgeSelectK+PositiveStack,learned_late_fusion,meth,4,0.2484081428154462,0.212738983437507
+Vincristine,RidgeSelectK+PositiveStack,learned_late_fusion,expr,5,0.7710230565351871,0.6835913618566318
+Vincristine,RidgeSelectK+PositiveStack,learned_late_fusion,mut,5,0.0,0.0
+Vincristine,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,5,0.0213009178708796,0.01888545787668845
+Vincristine,RidgeSelectK+PositiveStack,learned_late_fusion,meth,5,0.3355765514886594,0.2975231802666797
+SB-743921,RidgeSelectK+PositiveStack,learned_late_fusion,expr,1,0.861470100374581,0.7621697348068718
+SB-743921,RidgeSelectK+PositiveStack,learned_late_fusion,mut,1,0.0,0.0
+SB-743921,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,1,0.15001223206106956,0.13272054721116575
+SB-743921,RidgeSelectK+PositiveStack,learned_late_fusion,meth,1,0.11880408676055543,0.10510971798196246
+SB-743921,RidgeSelectK+PositiveStack,learned_late_fusion,expr,2,0.8007403567413741,0.6840045802881999
+SB-743921,RidgeSelectK+PositiveStack,learned_late_fusion,mut,2,0.0,0.0
+SB-743921,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,2,0.11585160502566329,0.09896220142291057
+SB-743921,RidgeSelectK+PositiveStack,learned_late_fusion,meth,2,0.2540732352466851,0.21703321828888955
+SB-743921,RidgeSelectK+PositiveStack,learned_late_fusion,expr,3,0.9696671779901344,0.8898466265102709
+SB-743921,RidgeSelectK+PositiveStack,learned_late_fusion,mut,3,0.0,0.0
+SB-743921,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,3,0.12003429314191597,0.11015337348972908
+SB-743921,RidgeSelectK+PositiveStack,learned_late_fusion,meth,3,0.0,0.0
+SB-743921,RidgeSelectK+PositiveStack,learned_late_fusion,expr,4,0.6333906586166751,0.5224217445381429
+SB-743921,RidgeSelectK+PositiveStack,learned_late_fusion,mut,4,0.0,0.0
+SB-743921,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,4,0.04443673240600633,0.036651496117453615
+SB-743921,RidgeSelectK+PositiveStack,learned_late_fusion,meth,4,0.5345851190588743,0.4409267593444035
+SB-743921,RidgeSelectK+PositiveStack,learned_late_fusion,expr,5,0.7911958176815818,0.6740265657135531
+SB-743921,RidgeSelectK+PositiveStack,learned_late_fusion,mut,5,0.0,0.0
+SB-743921,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,5,0.11955479311671138,0.10184976312840185
+SB-743921,RidgeSelectK+PositiveStack,learned_late_fusion,meth,5,0.26308415763399895,0.22412367115804502
+Oligomycin A,RidgeSelectK+PositiveStack,learned_late_fusion,expr,1,0.7404600264944622,0.9570906015885707
+Oligomycin A,RidgeSelectK+PositiveStack,learned_late_fusion,mut,1,0.0,0.0
+Oligomycin A,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,1,0.03319716464862606,0.04290939841142926
+Oligomycin A,RidgeSelectK+PositiveStack,learned_late_fusion,meth,1,0.0,0.0
+Oligomycin A,RidgeSelectK+PositiveStack,learned_late_fusion,expr,2,0.6852099002427733,0.6155562345426348
+Oligomycin A,RidgeSelectK+PositiveStack,learned_late_fusion,mut,2,0.0,0.0
+Oligomycin A,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,2,0.08868345065733327,0.07966850877889277
+Oligomycin A,RidgeSelectK+PositiveStack,learned_late_fusion,meth,2,0.3392622988869384,0.30477525667847244
+Oligomycin A,RidgeSelectK+PositiveStack,learned_late_fusion,expr,3,0.8513008720331084,0.8561531976624663
+Oligomycin A,RidgeSelectK+PositiveStack,learned_late_fusion,mut,3,0.0,0.0
+Oligomycin A,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,3,0.14303153758399503,0.14384680233753366
+Oligomycin A,RidgeSelectK+PositiveStack,learned_late_fusion,meth,3,0.0,0.0
+Oligomycin A,RidgeSelectK+PositiveStack,learned_late_fusion,expr,4,0.6633230668521753,0.7287595418573773
+Oligomycin A,RidgeSelectK+PositiveStack,learned_late_fusion,mut,4,0.004938067215350492,0.005425204973795579
+Oligomycin A,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,4,0.10754325864615152,0.11815234508991476
+Oligomycin A,RidgeSelectK+PositiveStack,learned_late_fusion,meth,4,0.13440402138348134,0.14766290807891236
+Oligomycin A,RidgeSelectK+PositiveStack,learned_late_fusion,expr,5,0.866686817135135,0.9367107498183346
+Oligomycin A,RidgeSelectK+PositiveStack,learned_late_fusion,mut,5,0.0,0.0
+Oligomycin A,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,5,0.012648365305507739,0.013670289561414925
+Oligomycin A,RidgeSelectK+PositiveStack,learned_late_fusion,meth,5,0.045909688831753837,0.049618960620250556
+BI-2536,RidgeSelectK+PositiveStack,learned_late_fusion,expr,1,0.7904071456217404,0.7184961228520276
+BI-2536,RidgeSelectK+PositiveStack,learned_late_fusion,mut,1,0.0,0.0
+BI-2536,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,1,0.0,0.0
+BI-2536,RidgeSelectK+PositiveStack,learned_late_fusion,meth,1,0.3096783252424117,0.2815038771479724
+BI-2536,RidgeSelectK+PositiveStack,learned_late_fusion,expr,2,0.7953134823584517,0.7065125060656363
+BI-2536,RidgeSelectK+PositiveStack,learned_late_fusion,mut,2,0.0,0.0
+BI-2536,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,2,0.0218686455861081,0.019426895104915177
+BI-2536,RidgeSelectK+PositiveStack,learned_late_fusion,meth,2,0.3085070502800724,0.2740605988294484
+BI-2536,RidgeSelectK+PositiveStack,learned_late_fusion,expr,3,0.8588375890123818,0.8008476066682599
+BI-2536,RidgeSelectK+PositiveStack,learned_late_fusion,mut,3,0.0,0.0
+BI-2536,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,3,0.006696337359690663,0.00624419077199264
+BI-2536,RidgeSelectK+PositiveStack,learned_late_fusion,meth,3,0.2068768317562757,0.19290820255974742
+BI-2536,RidgeSelectK+PositiveStack,learned_late_fusion,expr,4,0.8565220430420822,0.7462653768466427
+BI-2536,RidgeSelectK+PositiveStack,learned_late_fusion,mut,4,0.0,0.0
+BI-2536,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,4,0.09186106111341329,0.08003615312205777
+BI-2536,RidgeSelectK+PositiveStack,learned_late_fusion,meth,4,0.19936147788759873,0.17369847003129946
+BI-2536,RidgeSelectK+PositiveStack,learned_late_fusion,expr,5,0.9483434809802384,0.8954991047932757
+BI-2536,RidgeSelectK+PositiveStack,learned_late_fusion,mut,5,0.0,0.0
+BI-2536,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,5,0.03926098378642055,0.03707325092560587
+BI-2536,RidgeSelectK+PositiveStack,learned_late_fusion,meth,5,0.07140662290959487,0.06742764428111854
+"1S,3R-RSL-3",RidgeSelectK+PositiveStack,learned_late_fusion,expr,1,0.6580008558171055,0.5400092011276355
+"1S,3R-RSL-3",RidgeSelectK+PositiveStack,learned_late_fusion,mut,1,0.09844402237815703,0.08079119868955903
+"1S,3R-RSL-3",RidgeSelectK+PositiveStack,learned_late_fusion,cnv,1,0.0,0.0
+"1S,3R-RSL-3",RidgeSelectK+PositiveStack,learned_late_fusion,meth,1,0.4620544630068547,0.37919960018280546
+"1S,3R-RSL-3",RidgeSelectK+PositiveStack,learned_late_fusion,expr,2,0.884875597935578,0.7701732949818249
+"1S,3R-RSL-3",RidgeSelectK+PositiveStack,learned_late_fusion,mut,2,0.0,0.0
+"1S,3R-RSL-3",RidgeSelectK+PositiveStack,learned_late_fusion,cnv,2,0.038396446513970506,0.03341929396205477
+"1S,3R-RSL-3",RidgeSelectK+PositiveStack,learned_late_fusion,meth,2,0.22565846729516204,0.1964074110561203
+"1S,3R-RSL-3",RidgeSelectK+PositiveStack,learned_late_fusion,expr,3,0.8526383372996126,0.7448256278253822
+"1S,3R-RSL-3",RidgeSelectK+PositiveStack,learned_late_fusion,mut,3,0.0,0.0
+"1S,3R-RSL-3",RidgeSelectK+PositiveStack,learned_late_fusion,cnv,3,0.04397059593568428,0.03841068984462508
+"1S,3R-RSL-3",RidgeSelectK+PositiveStack,learned_late_fusion,meth,3,0.2481399924817249,0.21676368232999269
+"1S,3R-RSL-3",RidgeSelectK+PositiveStack,learned_late_fusion,expr,4,1.0241956795981844,1.0
+"1S,3R-RSL-3",RidgeSelectK+PositiveStack,learned_late_fusion,mut,4,0.0,0.0
+"1S,3R-RSL-3",RidgeSelectK+PositiveStack,learned_late_fusion,cnv,4,0.0,0.0
+"1S,3R-RSL-3",RidgeSelectK+PositiveStack,learned_late_fusion,meth,4,0.0,0.0
+"1S,3R-RSL-3",RidgeSelectK+PositiveStack,learned_late_fusion,expr,5,0.9346729744461202,0.8970457982015596
+"1S,3R-RSL-3",RidgeSelectK+PositiveStack,learned_late_fusion,mut,5,0.0,0.0
+"1S,3R-RSL-3",RidgeSelectK+PositiveStack,learned_late_fusion,cnv,5,0.0,0.0
+"1S,3R-RSL-3",RidgeSelectK+PositiveStack,learned_late_fusion,meth,5,0.10727268353477382,0.1029542017984405
+docetaxel:tanespimycin (2:1 mol/mol),RidgeSelectK+PositiveStack,learned_late_fusion,expr,1,0.9009802991578788,0.8579882685852589
+docetaxel:tanespimycin (2:1 mol/mol),RidgeSelectK+PositiveStack,learned_late_fusion,mut,1,0.0,0.0
+docetaxel:tanespimycin (2:1 mol/mol),RidgeSelectK+PositiveStack,learned_late_fusion,cnv,1,0.02052108892187852,0.01954188517775952
+docetaxel:tanespimycin (2:1 mol/mol),RidgeSelectK+PositiveStack,learned_late_fusion,meth,1,0.1286065587847256,0.12246984623698154
+docetaxel:tanespimycin (2:1 mol/mol),RidgeSelectK+PositiveStack,learned_late_fusion,expr,2,0.9960262694593212,0.935565278650897
+docetaxel:tanespimycin (2:1 mol/mol),RidgeSelectK+PositiveStack,learned_late_fusion,mut,2,0.0,0.0
+docetaxel:tanespimycin (2:1 mol/mol),RidgeSelectK+PositiveStack,learned_late_fusion,cnv,2,0.06733369747111712,0.06324639356284938
+docetaxel:tanespimycin (2:1 mol/mol),RidgeSelectK+PositiveStack,learned_late_fusion,meth,2,0.0012651235769927105,0.001188327786253578
+docetaxel:tanespimycin (2:1 mol/mol),RidgeSelectK+PositiveStack,learned_late_fusion,expr,3,0.6588151254347648,0.546422223612377
+docetaxel:tanespimycin (2:1 mol/mol),RidgeSelectK+PositiveStack,learned_late_fusion,mut,3,0.0,0.0
+docetaxel:tanespimycin (2:1 mol/mol),RidgeSelectK+PositiveStack,learned_late_fusion,cnv,3,0.06784704864575887,0.05627244086432806
+docetaxel:tanespimycin (2:1 mol/mol),RidgeSelectK+PositiveStack,learned_late_fusion,meth,3,0.4790265716651425,0.3973053355232949
+docetaxel:tanespimycin (2:1 mol/mol),RidgeSelectK+PositiveStack,learned_late_fusion,expr,4,0.9313704894371009,0.7985886981791923
+docetaxel:tanespimycin (2:1 mol/mol),RidgeSelectK+PositiveStack,learned_late_fusion,mut,4,0.0,0.0
+docetaxel:tanespimycin (2:1 mol/mol),RidgeSelectK+PositiveStack,learned_late_fusion,cnv,4,0.08800339970941856,0.07545710456400913
+docetaxel:tanespimycin (2:1 mol/mol),RidgeSelectK+PositiveStack,learned_late_fusion,meth,4,0.14689667235861503,0.12595419725679868
+docetaxel:tanespimycin (2:1 mol/mol),RidgeSelectK+PositiveStack,learned_late_fusion,expr,5,0.7187947610469391,0.6035550315653109
+docetaxel:tanespimycin (2:1 mol/mol),RidgeSelectK+PositiveStack,learned_late_fusion,mut,5,0.0,0.0
+docetaxel:tanespimycin (2:1 mol/mol),RidgeSelectK+PositiveStack,learned_late_fusion,cnv,5,0.10592283161063258,0.08894090697479033
+docetaxel:tanespimycin (2:1 mol/mol),RidgeSelectK+PositiveStack,learned_late_fusion,meth,5,0.3662173237207341,0.30750406145989895
+Cytarabine,RidgeSelectK+PositiveStack,learned_late_fusion,expr,1,0.6792947045772418,0.5044638391626889
+Cytarabine,RidgeSelectK+PositiveStack,learned_late_fusion,mut,1,0.16809041683383638,0.12482879143776951
+Cytarabine,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,1,0.15322539774040866,0.11378959953686381
+Cytarabine,RidgeSelectK+PositiveStack,learned_late_fusion,meth,1,0.34595716685894723,0.2569177698626778
+Cytarabine,RidgeSelectK+PositiveStack,learned_late_fusion,expr,2,0.866667900637271,0.7686345309066547
+Cytarabine,RidgeSelectK+PositiveStack,learned_late_fusion,mut,2,0.0,0.0
+Cytarabine,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,2,0.10680476878201188,0.0947235189984432
+Cytarabine,RidgeSelectK+PositiveStack,learned_late_fusion,meth,2,0.15406957047329584,0.13664195009490207
+Cytarabine,RidgeSelectK+PositiveStack,learned_late_fusion,expr,3,0.8540823963101456,0.7107464197818477
+Cytarabine,RidgeSelectK+PositiveStack,learned_late_fusion,mut,3,0.03235757014158351,0.0269271761487274
+Cytarabine,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,3,0.05265287726288622,0.04381643289627053
+Cytarabine,RidgeSelectK+PositiveStack,learned_late_fusion,meth,3,0.26257679898621267,0.2185099711731544
+Cytarabine,RidgeSelectK+PositiveStack,learned_late_fusion,expr,4,0.7499882618231128,0.6740804377304137
+Cytarabine,RidgeSelectK+PositiveStack,learned_late_fusion,mut,4,0.0,0.0
+Cytarabine,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,4,0.021458270426151164,0.019286435612520414
+Cytarabine,RidgeSelectK+PositiveStack,learned_late_fusion,meth,4,0.34116291292062695,0.3066331266570659
+Cytarabine,RidgeSelectK+PositiveStack,learned_late_fusion,expr,5,0.846975943058832,0.6985935585747215
+Cytarabine,RidgeSelectK+PositiveStack,learned_late_fusion,mut,5,0.10988565309275655,0.09063469872962371
+Cytarabine,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,5,0.08804644947330377,0.07262152244287796
+Cytarabine,RidgeSelectK+PositiveStack,learned_late_fusion,meth,5,0.1674935470649141,0.13815022025277676
+Leptomycin B,RidgeSelectK+PositiveStack,learned_late_fusion,expr,1,0.7896542979667791,0.5865098659526876
+Leptomycin B,RidgeSelectK+PositiveStack,learned_late_fusion,mut,1,0.1709438545340733,0.12696727855007892
+Leptomycin B,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,1,0.08948306069496782,0.06646287884252071
+Leptomycin B,RidgeSelectK+PositiveStack,learned_late_fusion,meth,1,0.296280278412027,0.22005997665471266
+Leptomycin B,RidgeSelectK+PositiveStack,learned_late_fusion,expr,2,0.8451964307631876,0.7696091345044062
+Leptomycin B,RidgeSelectK+PositiveStack,learned_late_fusion,mut,2,0.18505195637006674,0.1685024578862871
+Leptomycin B,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,2,0.020285112643272988,0.018470981911999897
+Leptomycin B,RidgeSelectK+PositiveStack,learned_late_fusion,meth,2,0.04768167578457909,0.043417425697306805
+Leptomycin B,RidgeSelectK+PositiveStack,learned_late_fusion,expr,3,0.9642712995904805,0.742023241238721
+Leptomycin B,RidgeSelectK+PositiveStack,learned_late_fusion,mut,3,0.2393438656313981,0.18417919419756648
+Leptomycin B,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,3,0.00610760471849507,0.00469990618962456
+Leptomycin B,RidgeSelectK+PositiveStack,learned_late_fusion,meth,3,0.08979353359311458,0.06909765837408798
+Leptomycin B,RidgeSelectK+PositiveStack,learned_late_fusion,expr,4,0.9424980083277796,0.7620408081269027
+Leptomycin B,RidgeSelectK+PositiveStack,learned_late_fusion,mut,4,0.16603004901894095,0.1342407852428497
+Leptomycin B,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,4,0.12827973335997528,0.10371840663024762
+Leptomycin B,RidgeSelectK+PositiveStack,learned_late_fusion,meth,4,0.0,0.0
+Leptomycin B,RidgeSelectK+PositiveStack,learned_late_fusion,expr,5,0.9492099268356197,0.719741877266677
+Leptomycin B,RidgeSelectK+PositiveStack,learned_late_fusion,mut,5,0.32442159457639447,0.24599385331407256
+Leptomycin B,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,5,0.03643633013671986,0.02762797976706437
+Leptomycin B,RidgeSelectK+PositiveStack,learned_late_fusion,meth,5,0.00875207100514095,0.006636289652185945
+KX2-391,RidgeSelectK+PositiveStack,learned_late_fusion,expr,1,0.899555576660826,0.742365750985509
+KX2-391,RidgeSelectK+PositiveStack,learned_late_fusion,mut,1,0.2325122099971173,0.19188264279183273
+KX2-391,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,1,0.016840384925483846,0.013897668278038578
+KX2-391,RidgeSelectK+PositiveStack,learned_late_fusion,meth,1,0.06283358167855109,0.051853937944619524
+KX2-391,RidgeSelectK+PositiveStack,learned_late_fusion,expr,2,0.8866326731870743,0.925175601603811
+KX2-391,RidgeSelectK+PositiveStack,learned_late_fusion,mut,2,0.0,0.0
+KX2-391,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,2,0.016947126620506417,0.01768383744558305
+KX2-391,RidgeSelectK+PositiveStack,learned_late_fusion,meth,2,0.054760078211336216,0.05714056095060597
+KX2-391,RidgeSelectK+PositiveStack,learned_late_fusion,expr,3,0.9698381657860874,0.9378756324865056
+KX2-391,RidgeSelectK+PositiveStack,learned_late_fusion,mut,3,0.0,0.0
+KX2-391,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,3,0.05977630345259832,0.05780628189948593
+KX2-391,RidgeSelectK+PositiveStack,learned_late_fusion,meth,3,0.004465244736654883,0.004318085614008442
+KX2-391,RidgeSelectK+PositiveStack,learned_late_fusion,expr,4,0.9956639276969309,0.9629310539758816
+KX2-391,RidgeSelectK+PositiveStack,learned_late_fusion,mut,4,0.0,0.0
+KX2-391,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,4,0.03832902910500974,0.037068946024118414
+KX2-391,RidgeSelectK+PositiveStack,learned_late_fusion,meth,4,0.0,0.0
+KX2-391,RidgeSelectK+PositiveStack,learned_late_fusion,expr,5,0.9017049417931847,0.8612226920745747
+KX2-391,RidgeSelectK+PositiveStack,learned_late_fusion,mut,5,0.0,0.0
+KX2-391,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,5,0.060751359825617114,0.05802391362318758
+KX2-391,RidgeSelectK+PositiveStack,learned_late_fusion,meth,5,0.08454925233506994,0.08075339430223782
+CAY10618,RidgeSelectK+PositiveStack,learned_late_fusion,expr,1,0.8526048697088807,0.8959625223799335
+CAY10618,RidgeSelectK+PositiveStack,learned_late_fusion,mut,1,0.0,0.0
+CAY10618,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,1,0.08432619087719187,0.08861444423466398
+CAY10618,RidgeSelectK+PositiveStack,learned_late_fusion,meth,1,0.014676677920798964,0.015423033385402619
+CAY10618,RidgeSelectK+PositiveStack,learned_late_fusion,expr,2,0.5394268348463199,0.5256116601928499
+CAY10618,RidgeSelectK+PositiveStack,learned_late_fusion,mut,2,0.0,0.0
+CAY10618,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,2,0.0,0.0
+CAY10618,RidgeSelectK+PositiveStack,learned_late_fusion,meth,2,0.4868571609242479,0.47438833980715006
+CAY10618,RidgeSelectK+PositiveStack,learned_late_fusion,expr,3,0.7276655260898522,0.8205655812848707
+CAY10618,RidgeSelectK+PositiveStack,learned_late_fusion,mut,3,0.0,0.0
+CAY10618,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,3,0.0,0.0
+CAY10618,RidgeSelectK+PositiveStack,learned_late_fusion,meth,3,0.15911981159205224,0.17943441871512936
+CAY10618,RidgeSelectK+PositiveStack,learned_late_fusion,expr,4,0.6444819788242734,0.7226140338231104
+CAY10618,RidgeSelectK+PositiveStack,learned_late_fusion,mut,4,0.0,0.0
+CAY10618,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,4,0.0,0.0
+CAY10618,RidgeSelectK+PositiveStack,learned_late_fusion,meth,4,0.24739383406927606,0.27738596617688965
+CAY10618,RidgeSelectK+PositiveStack,learned_late_fusion,expr,5,0.7881930497774876,0.7521288412963565
+CAY10618,RidgeSelectK+PositiveStack,learned_late_fusion,mut,5,0.031662756846709134,0.030214009913036674
+CAY10618,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,5,0.0,0.0
+CAY10618,RidgeSelectK+PositiveStack,learned_late_fusion,meth,5,0.2280937021580638,0.2176571487906068
+Clofarabine,RidgeSelectK+PositiveStack,learned_late_fusion,expr,1,0.8837497582316368,0.6149636198950533
+Clofarabine,RidgeSelectK+PositiveStack,learned_late_fusion,mut,1,0.38091627403110834,0.2650633265505325
+Clofarabine,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,1,0.06282418122633159,0.043716657961179704
+Clofarabine,RidgeSelectK+PositiveStack,learned_late_fusion,meth,1,0.10958627305569363,0.07625639559323456
+Clofarabine,RidgeSelectK+PositiveStack,learned_late_fusion,expr,2,0.9516334169048543,0.8482802147237002
+Clofarabine,RidgeSelectK+PositiveStack,learned_late_fusion,mut,2,0.027325836838314986,0.024358084036290417
+Clofarabine,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,2,0.11683161964027663,0.10414299207494128
+Clofarabine,RidgeSelectK+PositiveStack,learned_late_fusion,meth,2,0.026047642224062514,0.02321870916506816
+Clofarabine,RidgeSelectK+PositiveStack,learned_late_fusion,expr,3,0.8147937288115367,0.5322364900193446
+Clofarabine,RidgeSelectK+PositiveStack,learned_late_fusion,mut,3,0.4049336974899376,0.2645092643962283
+Clofarabine,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,3,0.16846357343050355,0.11004314079533917
+Clofarabine,RidgeSelectK+PositiveStack,learned_late_fusion,meth,3,0.14269563448192646,0.093211104789088
+Clofarabine,RidgeSelectK+PositiveStack,learned_late_fusion,expr,4,0.9141028664832435,0.7596503580122043
+Clofarabine,RidgeSelectK+PositiveStack,learned_late_fusion,mut,4,0.14660800454165873,0.12183620380274507
+Clofarabine,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,4,0.0862901049519009,0.07170999186536717
+Clofarabine,RidgeSelectK+PositiveStack,learned_late_fusion,meth,4,0.056319547527192704,0.04680344631968349
+Clofarabine,RidgeSelectK+PositiveStack,learned_late_fusion,expr,5,0.8794834111022849,0.6600811366561087
+Clofarabine,RidgeSelectK+PositiveStack,learned_late_fusion,mut,5,0.2979006368167767,0.22358419553831388
+Clofarabine,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,5,0.07624842329391614,0.05722694172594328
+Clofarabine,RidgeSelectK+PositiveStack,learned_late_fusion,meth,5,0.07875435559083246,0.05910772607963407
+ML210,RidgeSelectK+PositiveStack,learned_late_fusion,expr,1,0.9256864043968398,0.8465406045134668
+ML210,RidgeSelectK+PositiveStack,learned_late_fusion,mut,1,0.0,0.0
+ML210,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,1,0.03179888174806209,0.029080090676492847
+ML210,RidgeSelectK+PositiveStack,learned_late_fusion,meth,1,0.1360079254758928,0.12437930481004036
+ML210,RidgeSelectK+PositiveStack,learned_late_fusion,expr,2,0.5240998493073423,0.3174748753739267
+ML210,RidgeSelectK+PositiveStack,learned_late_fusion,mut,2,0.6197489596197528,0.3754145779252476
+ML210,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,2,0.0,0.0
+ML210,RidgeSelectK+PositiveStack,learned_late_fusion,meth,2,0.5069900131688253,0.3071105467008257
+ML210,RidgeSelectK+PositiveStack,learned_late_fusion,expr,3,0.6539246662868698,0.5108070709448367
+ML210,RidgeSelectK+PositiveStack,learned_late_fusion,mut,3,0.3117258740052169,0.24350171946025165
+ML210,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,3,0.0,0.0
+ML210,RidgeSelectK+PositiveStack,learned_late_fusion,meth,3,0.3145288140721929,0.24569120959491164
+ML210,RidgeSelectK+PositiveStack,learned_late_fusion,expr,4,0.9943128188089603,0.9791807898995125
+ML210,RidgeSelectK+PositiveStack,learned_late_fusion,mut,4,0.0,0.0
+ML210,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,4,0.021140945261514027,0.020819210100487456
+ML210,RidgeSelectK+PositiveStack,learned_late_fusion,meth,4,0.0,0.0
+ML210,RidgeSelectK+PositiveStack,learned_late_fusion,expr,5,0.9102160125878628,0.989450160055685
+ML210,RidgeSelectK+PositiveStack,learned_late_fusion,mut,5,0.0,0.0
+ML210,RidgeSelectK+PositiveStack,learned_late_fusion,cnv,5,0.009705019651534669,0.010549839944314986
+ML210,RidgeSelectK+PositiveStack,learned_late_fusion,meth,5,0.0,0.0
