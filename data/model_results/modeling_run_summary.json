@@ -13,13 +13,13 @@
   "run_full_modeling": false,
   "quick_max_features_per_layer": 1000,
   "select_k_features": 1000,
-  "n_cv_metric_rows": 3600,
-  "expected_cv_metric_rows": 3600,
-  "n_prediction_rows": 255120,
-  "n_feature_importance_rows": 159000,
-  "n_layer_importance_rows": 8460,
-  "mean_best_validated_pearson": 0.5694061832563667,
+  "n_cv_metric_rows": 3420,
+  "expected_cv_metric_rows": 3420,
+  "n_prediction_rows": 242364,
+  "n_feature_importance_rows": 150000,
+  "n_layer_importance_rows": 7500,
+  "mean_best_validated_pearson": 0.5686624975972125,
   "previous_three_baseline_pearson": 0.5346017297682191,
-  "original_three_mean_best_pearson": 0.529728828894322,
-  "original_three_delta_vs_previous": -0.004872900873897024
+  "original_three_mean_best_pearson": 0.5267540862577048,
+  "original_three_delta_vs_previous": -0.007847643510514257
 }
