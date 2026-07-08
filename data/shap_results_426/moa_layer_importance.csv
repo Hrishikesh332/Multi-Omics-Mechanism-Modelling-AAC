@@ -1,0 +1,9 @@
+moa_class,expr,mut,cnv
+Cytoskeleton/cell cycle,0.738,0.009,0.254
+DNA damage/repair,0.728,0.01,0.262
+Epigenetic,0.758,0.009,0.233
+Kinase inhibitor,0.727,0.012,0.261
+Metabolic,0.715,0.009,0.275
+Other/Unknown,0.727,0.011,0.262
+Proteasome/protein,0.716,0.018,0.267
+Receptor,0.705,0.01,0.285
