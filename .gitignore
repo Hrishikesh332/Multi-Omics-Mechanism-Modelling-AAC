@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Generated model outputs (02_model_development_v4.ipynb / HPC merge)
+# ~372 CSVs + chunk files; regenerate locally from notebook 02
+data/model_results_v4/
+
+# Matplotlib cache written during plotting runs
+**/.matplotlib/
+
+# Stray plot copies at repo root (canonical outputs live in plots/)
+/cv_pearson_by_strategy.png
+/learned_late_fusion_weights.png
