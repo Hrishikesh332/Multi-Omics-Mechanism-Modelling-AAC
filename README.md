@@ -49,7 +49,7 @@ Run the notebooks in this order
 
 1. `01_data_prep_eda_v4.ipynb`
 2. `02_model_development_v4.ipynb`
-3. `03_shap_moa_analysis_v2_426.ipynb`
+3. `03_shap_moa_analysis.ipynb`
 
 The full 426-compound model comparison is computationally expensive. For a smaller validation run, set `RUN_FULL_MODELING = False` in `02_model_development_v4.ipynb` before execution.
 
