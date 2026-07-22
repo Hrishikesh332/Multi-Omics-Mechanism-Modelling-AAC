@@ -1,15 +1,30 @@
 # Mechanism-Aware Drug Response Prediction with Multi-Omics Data
 
-This project investigates how molecular profiles explain differences in cancer drug response. It combines cancer cell-line data from multiple omics layers with CTRPv2 drug-response measurements to compare prediction strategies and identify biologically meaningful drivers of sensitivity.
+## About the project
 
-Goal for the project is
+Cancer cell lines respond differently because of their molecular characteristics, and multi-omics data provide complementary information for studying these differences.
 
-> Which molecular data types are most predictive of cancer drug response, and does their importance differ across drug mechanism-of-action (MOA) classes?
+This project develops a mechanism-aware prediction pipeline using CTRPv2 drug response and cancer cell-line omics. It compares single-omics and integrated strategies, evaluates AAC prediction, and uses SHAP and pathway analysis to identify molecular drivers across drug mechanism-of-action classes.
 
+The project asks
 
-### Final model result comparison
+> Which molecular data types (gene expression, mutations, DNA methylation, copy-number variation, and proteomics) are most predictive of cancer drug response, and does their relative importance differ across drug mechanism-of-action (MOA) classes?
 
-The table below provides the top ten configurations from the full 426-compound run. Metrics are averaged across 2,130 compound-fold evaluations (426 compounds x 5 folds).
+## Cohort ablation
+
+The cohort ablation compared omics-layer availability and usable cohort size, results are shown below.
+
+| Cohort | Cell lines | Ridge Pearson | XGBoost Pearson |
+| --- | ---: | ---: | ---: |
+| Five omics | 389 | 0.560 | 0.535 |
+| Four omics without proteomics | 508 | 0.586 | 0.567 |
+| Three omics without proteomics or methylation | 574 | 0.604 | 0.596 |
+
+These values are mean CV Pearson correlations from the same 12-compound evaluation. Ridge or RidgeSelectK outperformed XGBoost at each cohort size, and expression-only Ridge remained the best configuration. As the omics set and cohort size changed together, the comparison does not isolate the effect of dropping a layer. These diagnostic results are not directly comparable with the full 426 compound results below.
+
+## Final model result comparison
+
+The table below provides the top ten configurations from the full 426 compound run. Metrics are averaged across 2,130 compound-fold evaluations (426 compounds x 5 folds).
 
 | Rank | Model | Strategy | Features | Pearson | Spearman | R-squared | RMSE |
 | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
@@ -23,6 +38,22 @@ The table below provides the top ten configurations from the full 426-compound r
 | 8 | LightGBM | Metadata augmented | Expression + lineage | 0.4052 | 0.3579 | 0.1691 | 0.0863 |
 | 9 | XGBoost | Late fusion | Expression + mutations + CNV | 0.4016 | 0.3507 | 0.1397 | 0.0885 |
 | 10 | LightGBM | Late fusion | Expression + mutations + CNV | 0.3924 | 0.3418 | 0.1320 | 0.0889 |
+
+### Result plot
+
+![Cross-validated Pearson correlation by modeling strategy](Plots/cv_pearson_by_strategy.png)
+
+The plot shows compound fold Pearson correlations for 426 compounds across the modeling strategies after fold-safe batch correction. XGBoost and LightGBM generally performed better than the linear models for the fusion strategies, while the wide distributions show variation between compounds. XGBoost with early multi-omics fusion achieved the best overall result (mean Pearson = 0.4175).
+
+## Data sources
+
+- **DepMap Public 26Q1** - cell-line metadata, gene expression, mutations, and copy-number variation.
+- **CCLE and Cell Model Passports** - DNA methylation and proteomics used in the cohort-ablation experiments.
+- **PharmacoDB CTRPv2** - compound-level AAC drug-response measurements and compound identifiers.
+- **ChEMBL, PubChem, and the PRISM Repurposing Hub** - compound mechanism-of-action annotations.
+- **Enrichr libraries** - KEGG, Gene Ontology, Reactome, and MSigDB Hallmark gene sets used for pathway enrichment.
+
+## Workflow
 
 ### 1. Clone the repository
 
@@ -39,23 +70,25 @@ python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install jupyter pandas numpy scipy scikit-learn umap-learn \
   matplotlib seaborn requests pyarrow tqdm upsetplot joblib \
-  xgboost lightgbm shap
+  xgboost lightgbm shap gseapy
 ```
 
 ### 3. Run the workflow
 
+Run the notebooks in this order:
 
-Run the notebooks in this order
+1. `01_data_prep_eda.ipynb` prepares and explores the multi-omics and drug-response data.
+2. `02_model_development_final.ipynb` trains and evaluates the prediction models.
+3. `03_shap_moa_analysis_v2_426.ipynb` calculates SHAP importance and compares results across MOA classes.
+4. `04_kegg_go_enrichment.ipynb` performs pathway enrichment on SHAP-derived genes.
 
-1. `01_data_prep_eda_v4.ipynb`
-2. `02_model_development_v4.ipynb`
-3. `03_shap_moa_analysis.ipynb`
+The supporting cohort-ablation notebooks are in `02_cohort_ablations_model_dev/` and are not required for the final workflow.
 
-The full 426-compound model comparison is computationally expensive. For a smaller validation run, set `RUN_FULL_MODELING = False` in `02_model_development_v4.ipynb` before execution.
+The first two cells of `03_shap_moa_analysis_v2_426.ipynb` mount and copy data from Google Drive; skip them when running locally.
 
 ## Modeling design
 
-- **Target -** compound specific AAC values.
+- **Target -** compound-specific AAC values.
 - **Eligibility -** at least 250 observed cell lines and AAC standard deviation of at least 0.04.
 - **Final omics layers -** expression, mutations, and CNV.
 - **Integration -** single-omics, early fusion, simple late fusion, learned late fusion, and lineage augmentation.
@@ -75,7 +108,7 @@ python -m pip install wandb
 wandb login
 ```
 
-Then update the configuration in `02_model_development_v4.ipynb`:
+Then update the configuration in `02_model_development_final.ipynb`:
 
 ```python
 USE_WANDB = True
@@ -84,4 +117,3 @@ WANDB_ENTITY = None
 WANDB_MODE = "online"
 ```
 
-Model files are uploaded only when `WANDB_LOG_MODELS = True`
