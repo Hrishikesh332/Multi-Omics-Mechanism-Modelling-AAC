@@ -1,1 +1,8 @@
 data/model_results_v4/
+01_data_prep_eda_no_prot_no_methyl.ipynb
+01_data_prep_eda_v4.ipynb
+01_data_prep_eda_no_prot.ipynb
+01_data_prep_eda_v4
+03_shap_moa_analysis.ipynb
+03_shap_moa_analysis_v2.ipynb
+03_shap_moa_analysis_v2_426.ipynb
