@@ -45,6 +45,28 @@ The table below provides the top ten configurations from the full 426 compound r
 
 The plot shows compound fold Pearson correlations for 426 compounds across the modeling strategies after fold-safe batch correction. XGBoost and LightGBM generally performed better than the linear models for the fusion strategies, while the wide distributions show variation between compounds. XGBoost with early multi-omics fusion achieved the best overall result (mean Pearson = 0.4175).
 
+## MOA and SHAP
+
+### MOA Resolution
+
+Every CTRPv2 compound needed a mechanism-of-action (MOA) label before comparing omics-layer importance across drug mechanisms. ChEMBL alone covered only 13% of compounds, so a multi-source waterfall (ChEMBL, PRISM, PubChem, manual review) was used to resolve the rest.
+
+| Step | Compounds resolved |
+| --- | ---: |
+| Baseline (ChEMBL ID + manual name rules) | 110 / 544 (20%) |
+| + InChIKey, PRISM Repurposing Hub, PubChem MeSH, INN suffix | 233 / 544 (43%) |
+| + team manual review (242 compounds) | 323 / 544 (59%) |
+
+Classes with fewer than 5 resolved compounds were merged into `Other/Unknown` for statistical reliability.
+
+### SHAP computation
+
+SHAP values are computed for the best cross-validated configuration, averaged across the 5 saved fold models per compound. SHAP succeeded for 379/426 modeled compounds; the 47 failures are almost entirely two-drug combination treatments.
+
+### Result plot
+
+![Normalised omics-layer importance per MOA class](Plots/moa_layer_importance_heatmap.png)
+
 ## Data sources
 
 - **DepMap Public 26Q1** - cell-line metadata, gene expression, mutations, and copy-number variation.
@@ -79,12 +101,12 @@ Run the notebooks in this order:
 
 1. `01_data_prep_eda.ipynb` prepares and explores the multi-omics and drug-response data.
 2. `02_model_development_final.ipynb` trains and evaluates the prediction models.
-3. `03_shap_moa_analysis_v2_426.ipynb` calculates SHAP importance and compares results across MOA classes.
+3. `03_shap_moa_analysis.ipynb` calculates SHAP importance and compares results across MOA classes.
 4. `04_kegg_go_enrichment.ipynb` performs pathway enrichment on SHAP-derived genes.
 
 The supporting cohort-ablation notebooks are in `02_cohort_ablations_model_dev/` and are not required for the final workflow.
 
-The first two cells of `03_shap_moa_analysis_v2_426.ipynb` mount and copy data from Google Drive; skip them when running locally.
+The first two cells of `03_shap_moa_analysis.ipynb` mount and copy data from Google Drive (https://drive.google.com/drive/folders/1g__yAP27zH_jbzOgOH6KYWU8gNetdW4h?usp=sharing - 426 compounds results); skip them when running locally.
 
 ## Modeling design
 
