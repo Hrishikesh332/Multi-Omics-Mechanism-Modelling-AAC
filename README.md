@@ -67,6 +67,16 @@ SHAP values are computed for the best cross-validated configuration, averaged ac
 
 ![Normalised omics-layer importance per MOA class](Plots/moa_layer_importance_heatmap.png)
 
+## Pathway enrichment (KEGG/GO)
+
+For each MOA class, the top-30 genes by mean |SHAP| were tested against six gene-set libraries (KEGG, GO Biological Process, GO Molecular Function, GO Cellular Component, Reactome, MSigDB Hallmark) using a custom background restricted to the 2,804 genes ever selected into any omics feature matrix, rather than the whole genome.
+
+Across 8 MOA classes x 6 libraries (6,559 terms tested), 36 terms passed FDR < 0.05. The cleanest class-specific hit was "Drug metabolism" (KEGG) in the Metabolic class (3/14 genes, FDR = 0.02), driven by detoxification genes (MGST1, ALDH3A1, NQO1, GPX3, CES1, AKR1B10). GO Biological Process additionally recovered an EGFR-signaling signal for Epigenetic drugs (FDR = 0.0007) and a shared Rho-signaling term for Kinase inhibitor and Receptor classes. Most other elevated terms were shared across three or more classes and read as a general cell-fitness background rather than mechanism-specific signal.
+
+### Result plot
+
+![KEGG enrichment by MOA class](Plots/enrichment_KEGG_barplot.png)
+
 ## Data sources
 
 - **DepMap Public 26Q1** - cell-line metadata, gene expression, mutations, and copy-number variation.
